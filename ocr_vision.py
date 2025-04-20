@@ -4,7 +4,7 @@ import io
 from google.cloud import vision
 
 # Path to your Google Cloud service account key
-key_path = "ocr-project-452822-494f171454e5.json"
+key_path = "yourtserviceaccountkey"
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = key_path
 
 # Input and Output folder paths
